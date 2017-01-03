@@ -10,3 +10,7 @@
 ^example_output$
 ^classifierplots\.Rcheck$
 ^.*\.toml$
+^LOCALNOTES\.md$
+^img$
+^example2$
+^exampledata\.psv$
