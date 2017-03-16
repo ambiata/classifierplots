@@ -3,7 +3,7 @@
 Generates a visualization of binary classifier performance as a grid of diagonstic plots with just one function call. Includes ROC curves, prediction density, accuracy, precision, recall and calibration plots, all using ggplot2 for easy modification.
 Debug your binary classifiers faster and easier!
 
-** classifierplots is on cran now **
+**classifierplots is on cran now**
 
 Install with
 
@@ -23,7 +23,7 @@ If you want to save the results to disk as folder of seperate plots as well as a
 
 	classifierplots_folder(test.y, pred.prob, folder)
 
-There are also functions to produce each individual plot, which return ggplot2 objects.
+There are also functions to produce each individual plot which return ggplot2 objects.
 
 ##### Runnable example
 
@@ -49,7 +49,7 @@ We recommend using the CRAN version instead, but you can install from Github or 
 
 ### Building locally
 
-Run from bash in the project directory:
+Once you have cloned the repository, run from a shell in the project directory:
 
     R CMD build .
 
