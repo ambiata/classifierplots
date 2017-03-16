@@ -9,7 +9,7 @@ Install with
 
 	install.packages("classifierplots")
 
-Tested on Windows and Mac OS and Linux.
+Tested on Windows, Mac OS and Linux.
 
 ### Usage
 
