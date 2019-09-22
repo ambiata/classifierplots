@@ -14,8 +14,6 @@ classifierplots(test.y, pred.prob)
 \item{pred.prob}{List of probability predictions on the test set}
 }
 \description{
-The main functions you want are \code{\link{classifierplots}} or \code{\link{classifierplots_folder}}.
-
 Produce a suit of classifier diagnostic plots
 }
 \details{
@@ -26,4 +24,3 @@ Produce a suit of classifier diagnostic plots
  classifierplots(example_predictions$test.y, example_predictions$pred.prob)
 }
 }
-

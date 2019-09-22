@@ -17,4 +17,3 @@ auc
 \description{
 Compute auc from predictions and truth
 }
-

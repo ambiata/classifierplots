@@ -1,0 +1,4 @@
+# produced my R CMD facilities
+*.Rcheck
+*.tar.gz
+

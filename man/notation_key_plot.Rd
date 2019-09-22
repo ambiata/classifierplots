@@ -9,4 +9,3 @@ notation_key_plot()
 \description{
 Produces some definitions as a grid.
 }
-
