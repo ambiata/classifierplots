@@ -16,4 +16,3 @@ propensity_plot(test.y, pred.prob, granularity = 0.02)
 \description{
 Returns a ggplot2 plot object containing an propensity @ percentile plot
 }
-

@@ -14,4 +14,3 @@ positives_plot(test.y, pred.prob)
 \description{
 Returns a ggplot2 plot object containing an positives-per-decile plot.
 }
-

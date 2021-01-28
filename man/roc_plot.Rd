@@ -18,4 +18,3 @@ roc_plot(test.y, pred.prob, resamps = 2000, force_bootstrap = NULL)
 \description{
 Produces a smoothed ROC curve as a ggplot2 plot object. A confidence interval is produced using bootstrapping, although it is turned off by default if you have a large dataset.
 }
-

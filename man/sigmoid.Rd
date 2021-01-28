@@ -12,4 +12,3 @@ sigmoid(x)
 \description{
 Logistic sigmoid function, that maps any real number to the [0,1] interval. Supports vectors of numeric.
 }
-

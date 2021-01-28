@@ -9,7 +9,8 @@ NULL
 #' @description Produce a suit of classifier diagnostic plots
 #' @param test.y List of know labels on the test set
 #' @param pred.prob List of probability predictions on the test set
-#' @import data.table ggplot2
+#' @import ggplot2
+#' @importFrom data.table data.table setkey
 #' @importFrom gridExtra grid.arrange
 #' @importFrom ROCR performance
 #' @importFrom ROCR prediction
@@ -21,6 +22,9 @@ NULL
 classifierplots <- function(test.y, pred.prob) {
   produce_classifier_plots(test.y, pred.prob, show=T)
 }
+
+.I = .N = NULL
+`:=` = function(...) NULL
 
 #' @title classifierplots_folder
 #' @description Produce a suit of classifier diagnostic plots, saving to disk.

@@ -4,7 +4,8 @@
 \alias{classifierplots_folder}
 \title{classifierplots_folder}
 \usage{
-classifierplots_folder(test.y, pred.prob, folder, height = 5, width = 5)
+classifierplots_folder(test.y, pred.prob, folder, height = 5,
+  width = 5)
 }
 \arguments{
 \item{test.y}{List of know labels on the test set}
@@ -20,4 +21,3 @@ classifierplots_folder(test.y, pred.prob, folder, height = 5, width = 5)
 \description{
 Produce a suit of classifier diagnostic plots, saving to disk.
 }
-

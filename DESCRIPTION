@@ -12,10 +12,9 @@ Description:
   Debug your binary classifiers faster and easier!
 Depends:
   R (>= 3.1),
-  ggplot2 (>= 2.2),
-  data.table (>= 1.10),
+  ggplot2 (>= 2.2)
 Imports:
-  Rcpp (>= 0.12),
+  data.table (>= 1.10),
   grid,
   ROCR,
   caret,
@@ -30,4 +29,4 @@ Encoding: UTF-8
 BugReports: https://github.com/adefazio/classifierplots/issues
 URL: https://github.com/adefazio/classifierplots
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1

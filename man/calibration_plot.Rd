@@ -14,4 +14,3 @@ calibration_plot(test.y, pred.prob)
 \description{
 Returns a ggplot2 plot object containing a smoothed propensity @ prediction level plot
 }
-

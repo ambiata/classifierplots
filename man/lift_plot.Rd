@@ -18,4 +18,3 @@ lift_plot(test.y, pred.prob, granularity = 0.02, show_numbers = T)
 \description{
 Returns a ggplot2 plot object containing an precision @ percentile plot
 }
-
